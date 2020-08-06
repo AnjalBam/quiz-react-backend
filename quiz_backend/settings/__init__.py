@@ -1,1 +1,1 @@
-from .env import *
+from .prod_env import *
