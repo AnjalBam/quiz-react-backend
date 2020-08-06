@@ -59,6 +59,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
+    "https://quiz-2020.vercel.app/",
 ]
 
 CORS_ALLOW_METHODS = [
