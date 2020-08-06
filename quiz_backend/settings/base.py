@@ -57,12 +57,12 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
 ]
 
-# CORS_ORIGIN_WHITELIST = [
-#     "http://localhost:3000",
-#     "https://quiz-2020.vercel.app/",
-# ]
+CORS_ORIGIN_WHITELIST = [
+    "http://localhost:3000",
+    "http://quiz-2020.vercel.app/question/",
+]
 
-CORS_ORIGIN_ALLOW_ALL = True
+# CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ALLOW_METHODS = [
     'GET',
